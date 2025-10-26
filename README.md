@@ -1,117 +1,114 @@
-# Análise de Letras de Sertanejo e Funk
+# Scraper de Letras de Sertanejo
 
-Este projeto contém ferramentas e análises para coleta e processamento de letras de música dos gêneros sertanejo e funk brasileiro.
+Este projeto é um scraper especializado para coleta de letras de música sertaneja do site Letras.mus.br. Foi desenvolvido como parte de um trabalho prático de Mestrado em KDD (Knowledge Discovery in Databases).
 
-## Estrutura do Projeto
+## 🎯 Objetivo
 
-### 📁 `funk_ai/`
-Módulo focado na análise de letras de funk usando técnicas de inteligência artificial.
+Coletar letras de músicas sertanejas populares com informações completas como título, artista, ano de lançamento e contagem de palavras para análise posterior.
 
-- **`codigo_sequencial.py`** - Código principal para processamento sequencial
-- **`identificacao_topicos.ipynb`** - Notebook para identificação de tópicos nas letras
-- **`scapper.ipynb`** - Notebook para configuração do ambiente Git
-- **`README.md`** - Documentação específica do módulo funk
+## 📁 Estrutura do Projeto
 
-### 📁 `sertanejo_scraper/`
-Módulo dedicado à coleta e análise de letras de música sertaneja.
+```
+projeto_funk/
+├── sertanejo_scraper/
+│   ├── scraper_sertanejo.py           # Script principal de coleta
+│   └── teste_hits_corrigido_*.csv     # Exemplo de dados coletados
+├── requirements.txt                    # Dependências do projeto
+├── trabalhoPratico2025.pdf            # Documento do trabalho
+└── README.md                          # Esta documentação
+```
 
-#### Scripts de Coleta
-- **`scraper_sertanejo.py`** - Scraper principal para letras sertanejas
-- **`scraper_corrigido.py`** - Versão corrigida do scraper
-- **`scraper_hits_lista.py`** - Coleta de hits populares
-- **`scraper_mais_acessadas.py`** - Coleta das músicas mais acessadas
-- **`scraper_ranking_otimizado.py`** - Scraper otimizado para rankings
-
-#### Scripts de Configuração
-- **`configurar_massivo.py`** - Configuração para coleta massiva
-- **`configurar_estrategicos.py`** - Configuração de artistas estratégicos
-- **`configurar_expansao.py`** - Configuração para expansão da base
-
-#### Scripts de Análise
-- **`analisar_dados.py`** - Análise geral dos dados coletados
-- **`analisar_artistas.py`** - Análise específica de artistas
-- **`analisar_base_moderna.py`** - Análise da base moderna (2023+)
-- **`analisar_json.py`** - Análise de arquivos JSON
-- **`relatorio_final.py`** - Geração de relatório final
-
-#### Scripts de Processamento
-- **`processar_anos_inteligente.py`** - Processamento inteligente por anos
-- **`reprocessar_anos.py`** - Reprocessamento de dados por ano
-- **`reprocessar_lote.py`** - Reprocessamento em lote
-
-#### Scripts de Teste e Verificação
-- **`teste_*.py`** - Diversos scripts de teste
-- **`verificar_*.py`** - Scripts de verificação e validação
-- **`debug_*.py`** - Scripts para depuração
-
-#### Dados Gerados
-- **`.csv`** - Arquivos de dados em formato CSV
-- **`.json`** - Arquivos de dados em formato JSON
-- **`.html`** - Páginas HTML para debug
-
-### 📄 Arquivos de Documentação
-- **`anotacoes.txt`** - Anotações do projeto
-- **`excerpts_analysis.csv`** - Análise de trechos
-- **`trabalhoPratico2025.pdf`** - Documento do trabalho prático
-
-## Como Usar
+## 🚀 Como Usar
 
 ### Pré-requisitos
-- Python 3.7+
-- Bibliotecas necessárias (ver requirements em cada módulo)
+- Python 3.7 ou superior
+- pip (gerenciador de pacotes do Python)
 
 ### Instalação
+
+1. **Clone o repositório:**
 ```bash
 git clone https://github.com/vinigm/analise-letras-sertanejo.git
 cd analise-letras-sertanejo
 ```
 
-### Coleta de Dados Sertanejo
+2. **Instale as dependências:**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Execute o scraper:**
 ```bash
 cd sertanejo_scraper
 python scraper_sertanejo.py
 ```
 
-### Análise de Funk
-```bash
-cd funk_ai
-python codigo_sequencial.py
+## 🔧 Funcionalidades
+
+- ✅ **Coleta automatizada** de letras do Letras.mus.br
+- ✅ **Extração inteligente** de ano de lançamento usando JSON-LD
+- ✅ **Limpeza automática** de texto das letras
+- ✅ **Rate limiting** para respeitar o site
+- ✅ **Detecção de erros** e tratamento de exceções
+- ✅ **Exportação para CSV** com encoding UTF-8
+- ✅ **Análise automática** dos dados coletados
+
+## 📊 Dados Coletados
+
+Cada música coletada inclui:
+- **Posição no ranking** de popularidade
+- **Título** da música
+- **Artista** (normalizado e original)
+- **Letra completa** limpa e formatada
+- **URL** da fonte
+- **Ano** de lançamento (quando disponível)
+- **Timestamp** da coleta
+- **Contagem de palavras** e linhas
+- **Fonte** da coleta
+
+### Exemplo de Saída
+```csv
+ranking_posicao,titulo,artista,letra,ano,contagem_palavras,contagem_linhas
+1,"Amor Dos Outros","Henrique & Juliano","[letra completa...]",2019,156,32
 ```
 
-## Funcionalidades
+## ⚙️ Como Funciona o Scraper
 
-- 🎵 **Coleta automatizada** de letras de música
-- 📊 **Análise de tópicos** usando técnicas de NLP
-- 🔍 **Processamento inteligente** por períodos temporais
-- 📈 **Geração de relatórios** e visualizações
-- 🎯 **Coleta estratégica** de artistas populares
+1. **Lista de Teste**: Utiliza uma lista curada de hits sertanejos populares
+2. **Construção de URLs**: Normaliza nomes de artistas e títulos para criar URLs válidas
+3. **Extração Inteligente**: 
+   - Busca títulos usando seletores CSS específicos
+   - Identifica artistas através de links contextuais
+   - Extrai letras usando múltiplos seletores como fallback
+   - Localiza anos através de dados estruturados JSON-LD
+4. **Limpeza de Dados**: Remove caracteres especiais e formata o texto
+5. **Validação**: Verifica se a letra tem tamanho mínimo aceitável
+6. **Rate Limiting**: Delay de 2-4 segundos entre requisições
 
-## Dados Coletados
+## 📈 Estatísticas de Exemplo
 
-O projeto gera diversos tipos de dados:
-- Letras de música com metadados
-- Rankings de popularidade
-- Análises temporais
-- Identificação de tópicos
-- Relatórios estatísticos
+Baseado no último teste realizado:
+- **Taxa de sucesso**: ~80-90%
+- **Músicas com ano identificado**: ~60-70%
+- **Média de palavras por música**: ~150-200 palavras
+- **Range de anos**: 1990-2025
 
-## Contribuição
+## 🛠️ Tecnologias Utilizadas
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+- **Python 3.7+**
+- **requests** - Para requisições HTTP
+- **BeautifulSoup4** - Para parsing HTML
+- **pandas** - Para manipulação de dados
+- **unidecode** - Para normalização de texto
 
-## Licença
+## ⚠️ Considerações Legais
 
-Este projeto está sob licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto é para fins educacionais e de pesquisa. Respeite os termos de uso do site Letras.mus.br e use com moderação para não sobrecarregar os servidores.
 
-## Autores
+## 📝 Trabalho Acadêmico
 
-- Desenvolvido como parte do trabalho prático de Mestrado em KDD
-- Análise de letras de música brasileira
+Desenvolvido como parte do trabalho prático de **Mestrado em KDD** (Knowledge Discovery in Databases), focando na coleta e análise de dados textuais da música popular brasileira.
 
 ---
 
-⭐ Se este projeto foi útil para você, considere dar uma estrela!
+⭐ **Se este projeto foi útil para sua pesquisa, considere dar uma estrela!**
