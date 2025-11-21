@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 # A biblioteca do Google NÃO é mais necessária aqui
 
 MODEL_NAME = os.environ.get("LLMUSIC_MODEL", "llama3:8b")
-N_ITERACOES = int(os.environ.get("LLMUSIC_ITERACOES", 1))
+N_ITERACOES = int(os.environ.get("LLMUSIC_ITERACOES", 10))
 TRECHOS_POR_LOTE = int(os.environ.get("LLMUSIC_TRECHOS_LOTE", 5))
 TEMAS_POR_LOTE = int(os.environ.get("LLMUSIC_TEMAS_POR_LOTE", 3))
 EMBEDDING_DEVICE = os.environ.get("LLMUSIC_EMBEDDING_DEVICE", "cuda")
