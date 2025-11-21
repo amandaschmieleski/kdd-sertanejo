@@ -13,7 +13,7 @@ MODEL_NAME = os.environ.get("LLMUSIC_MODEL", "llama3:8b")
 N_ITERACOES = int(os.environ.get("LLMUSIC_ITERACOES", 1))
 TRECHOS_POR_LOTE = int(os.environ.get("LLMUSIC_TRECHOS_LOTE", 5))
 TEMAS_POR_LOTE = int(os.environ.get("LLMUSIC_TEMAS_POR_LOTE", 3))
-EMBEDDING_DEVICE = os.environ.get("LLMUSIC_EMBEDDING_DEVICE", "cpu")
+EMBEDDING_DEVICE = os.environ.get("LLMUSIC_EMBEDDING_DEVICE", "cuda")
 
 print("--- Iniciando o pipeline LLMusic (Versão Local com Ollama) ---")
 print(
@@ -23,7 +23,7 @@ print(
 )
 
 # --- 1. Carregar os Dados ---
-data_path = Path(__file__).resolve().parent.parent / "pre_processamento" / "musicas_por_trechos_limpo_20251116_112423_demo.csv"
+data_path = Path(__file__).resolve().parent.parent / "pre_processamento" / "musicas_por_trechos_limpo_20251116_112423.csv"
 print(f"Lendo dados de: {data_path}")
 try:
     df = pd.read_csv(data_path)
