@@ -11,8 +11,8 @@ from sentence_transformers import SentenceTransformer
 
 MODEL_NAME = os.environ.get("LLMUSIC_MODEL", "llama3:8b")
 N_ITERACOES = int(os.environ.get("LLMUSIC_ITERACOES", 10))
-TRECHOS_POR_LOTE = int(os.environ.get("LLMUSIC_TRECHOS_LOTE", 5))
-TEMAS_POR_LOTE = int(os.environ.get("LLMUSIC_TEMAS_POR_LOTE", 3))
+TRECHOS_POR_LOTE = int(os.environ.get("LLMUSIC_TRECHOS_LOTE", 20))
+TEMAS_POR_LOTE = int(os.environ.get("LLMUSIC_TEMAS_POR_LOTE", 5))
 EMBEDDING_DEVICE = os.environ.get("LLMUSIC_EMBEDDING_DEVICE", "cuda")
 
 print("--- Iniciando o pipeline LLMusic (Versão Local com Ollama) ---")
