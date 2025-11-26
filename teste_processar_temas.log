@@ -1,0 +1,78 @@
+=== Processar Temas com Base em Lista (Versao 2.0) ===
+Configuracao: modelo=llama3:8b, iteracoes=3, device=cpu
+Trechos: teste.csv
+Temas base: Topicos_tema.csv
+Carregados 10 registros para classificacao.
+Colunas de temas identificadas: ['Topicos_Temas']
+Carregados 9 temas candidatos (globais).
+
+=== ITERACAO 1/3 ===
+2025-11-26T10:49:33.744 | Registro [01/10] | tag=musica1_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:35.337 | Registro [02/10] | tag=musica2_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Crescimento, consquita e pertencimento']
+2025-11-26T10:49:37.042 | Registro [03/10] | tag=musica3_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Conhecimento, esperança e expectativa', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:38.726 | Registro [04/10] | tag=musica4_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:40.289 | Registro [05/10] | tag=musica5_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Crescimento, consquita e pertencimento', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:42.162 | Registro [06/10] | tag=musica6_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Perdas, arrependimento e vulnerabilidade']
+2025-11-26T10:49:43.936 | Registro [07/10] | tag=musica7_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Intimidade, desejo e sedução']
+2025-11-26T10:49:45.427 | Registro [08/10] | tag=musica8_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:49:47.265 | Registro [09/10] | tag=musica9_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:49:49.090 | Registro [10/10] | tag=musica10_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Intimidade, desejo e sedução']
+
+=== ITERACAO 2/3 ===
+2025-11-26T10:49:50.787 | Registro [01/10] | tag=musica1_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:52.351 | Registro [02/10] | tag=musica2_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Crescimento, consquita e pertencimento']
+2025-11-26T10:49:54.075 | Registro [03/10] | tag=musica3_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Conhecimento, esperança e expectativa', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:55.766 | Registro [04/10] | tag=musica4_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:57.319 | Registro [05/10] | tag=musica5_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Crescimento, consquita e pertencimento', 'Despedidas, morte e fragilidade']
+2025-11-26T10:49:59.192 | Registro [06/10] | tag=musica6_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Perdas, arrependimento e vulnerabilidade']
+2025-11-26T10:50:00.964 | Registro [07/10] | tag=musica7_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Intimidade, desejo e sedução']
+2025-11-26T10:50:02.467 | Registro [08/10] | tag=musica8_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:50:04.311 | Registro [09/10] | tag=musica9_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:50:06.137 | Registro [10/10] | tag=musica10_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Intimidade, desejo e sedução']
+
+=== ITERACAO 3/3 ===
+2025-11-26T10:50:07.827 | Registro [01/10] | tag=musica1_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:50:09.383 | Registro [02/10] | tag=musica2_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Crescimento, consquita e pertencimento']
+2025-11-26T10:50:11.092 | Registro [03/10] | tag=musica3_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Conhecimento, esperança e expectativa', 'Despedidas, morte e fragilidade']
+2025-11-26T10:50:12.786 | Registro [04/10] | tag=musica4_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Despedidas, morte e fragilidade']
+2025-11-26T10:50:14.349 | Registro [05/10] | tag=musica5_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Crescimento, consquita e pertencimento', 'Despedidas, morte e fragilidade']
+2025-11-26T10:50:16.227 | Registro [06/10] | tag=musica6_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Perdas, arrependimento e vulnerabilidade']
+2025-11-26T10:50:18.006 | Registro [07/10] | tag=musica7_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Amor e relações amorosas', 'Intimidade, desejo e sedução']
+2025-11-26T10:50:19.514 | Registro [08/10] | tag=musica8_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:50:21.352 | Registro [09/10] | tag=musica9_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Infidelidade, tristeza e sofrimento']
+2025-11-26T10:50:23.181 | Registro [10/10] | tag=musica10_trecho1 | temas_candidatos=9
+    Temas marcados como positivos: ['Despedidas, morte e fragilidade', 'Intimidade, desejo e sedução']
+Arquivo salvo: teste_temas_classificados.csv
+
+--- Script Concluido ---
+Tempo total: 0.9 minutos
+Log salvo em: teste_processar_temas.log

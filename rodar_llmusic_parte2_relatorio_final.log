@@ -1,0 +1,9 @@
+--- ETAPA 2: Classificacao com Autoconsistencia (LLMusic) ---
+Configuracao: modelo=llama3:8b, inferencias=5, temperaturas=[0.1, 0.4, 0.7, 0.9, 1.0], num_predict=5
+Trechos carregados: 10156 (de 10156) usando coluna 'tag_trecho'.
+Topicos carregados: 9 (colunas usadas: id='id', nome='Topicos_Temas').
+
+Iniciando classificacao de 10156 trechos contra 9 topicos...
+Total estimado de chamadas ao LLM: 457020
+
+Processando trecho 1/10156 (id=musica1_trecho1)

@@ -1,0 +1,38 @@
+--- ETAPA 2: Classificacao com Autoconsistencia (LLMusic) ---
+Configuracao: modelo=llama3:8b, inferencias=5, temperaturas=[0.1, 0.4, 0.7, 0.9, 1.0], num_predict=5
+Trechos carregados: 10 (de 10) usando coluna 'tag_trecho'.
+Topicos carregados: 9 (colunas usadas: id='id', nome='Topicos_Temas').
+
+Iniciando classificacao de 10 trechos contra 9 topicos...
+Total estimado de chamadas ao LLM: 450
+
+Processando trecho 1/10 (id=musica1_trecho1)
+
+Processando trecho 2/10 (id=musica2_trecho1)
+
+Processando trecho 3/10 (id=musica3_trecho1)
+
+Processando trecho 4/10 (id=musica4_trecho1)
+
+Processando trecho 5/10 (id=musica5_trecho1)
+
+Processando trecho 6/10 (id=musica6_trecho1)
+
+Processando trecho 7/10 (id=musica7_trecho1)
+
+Processando trecho 8/10 (id=musica8_trecho1)
+
+Processando trecho 9/10 (id=musica9_trecho1)
+
+Processando trecho 10/10 (id=musica10_trecho1)
+
+Concluido em 147.18 segundos.
+Resultados salvos em: teste_relatorio_final.csv
+
+Exemplo dos primeiros resultados:
+      trecho_id                         trecho_texto  topico_id                            topico_nome      scores_raw  n_validos  media_score  moda_score  desvio_padrao  classificado_positivo confianca
+musica1_trecho1 Não se diminua pra caber num coração          1               Amor e relações amorosas [4, 4, 4, 4, 4]          5          4.0           4            0.0                      1      alta
+musica1_trecho1 Não se diminua pra caber num coração          2             Inspiração, paz e harmonia [4, 4, 4, 4, 4]          5          4.0           4            0.0                      1      alta
+musica1_trecho1 Não se diminua pra caber num coração          3           Intimidade, desejo e sedução [4, 4, 4, 4, 4]          5          4.0           4            0.0                      1      alta
+musica1_trecho1 Não se diminua pra caber num coração          4  Conhecimento, esperança e expectativa [4, 4, 4, 4, 4]          5          4.0           4            0.0                      1      alta
+musica1_trecho1 Não se diminua pra caber num coração          5 Crescimento, consquita e pertencimento [4, 4, 4, 4, 4]          5          4.0           4            0.0                      1      alta

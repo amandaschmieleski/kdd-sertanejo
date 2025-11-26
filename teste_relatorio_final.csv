@@ -1,0 +1,91 @@
+trecho_id,trecho_texto,topico_id,topico_nome,scores_raw,n_validos,media_score,moda_score,desvio_padrao,classificado_positivo,confianca
+musica1_trecho1,Não se diminua pra caber num coração,1,Amor e relações amorosas,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,2,"Inspiração, paz e harmonia","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,4,"Conhecimento, esperança e expectativa","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,5,"Crescimento, consquita e pertencimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,8,Ostentação e consumismo,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica1_trecho1,Não se diminua pra caber num coração,9,"Despedidas, morte e fragilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",1,Amor e relações amorosas,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",2,"Inspiração, paz e harmonia","[2, 2, 3, 2, 2]",5,2.2,2,0.4,0,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",3,"Intimidade, desejo e sedução","[4, 4, 3, 4, 4]",5,3.8,4,0.4,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",4,"Conhecimento, esperança e expectativa","[4, 4, 4, 4, 3]",5,3.8,4,0.4,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",5,"Crescimento, consquita e pertencimento","[4, 4, 3, 3, 4]",5,3.6,4,0.49,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 3]",5,3.8,4,0.4,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",8,Ostentação e consumismo,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica2_trecho1,"Mais um casal surgindo, anéis de compromisso",9,"Despedidas, morte e fragilidade","[3, 3, 2, 3, 3]",5,2.8,3,0.4,0,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",1,Amor e relações amorosas,"[4, 4, 3, 4, 4]",5,3.8,4,0.4,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",2,"Inspiração, paz e harmonia","[2, 2, 2, 3, 2]",5,2.2,2,0.4,0,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",4,"Conhecimento, esperança e expectativa","[3, 4, 3, 4, 4]",5,3.6,4,0.49,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",5,"Crescimento, consquita e pertencimento","[3, 3, 3, 3, 3]",5,3.0,3,0.0,0,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",8,Ostentação e consumismo,"[3, 4, 3, 4, 4]",5,3.6,4,0.49,1,alta
+musica3_trecho1,"(Hum, hum, hum)Eu não sabia",9,"Despedidas, morte e fragilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,1,Amor e relações amorosas,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,2,"Inspiração, paz e harmonia","[3, 3, 3, 3, 3]",5,3.0,3,0.0,0,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 3]",5,3.8,4,0.4,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,4,"Conhecimento, esperança e expectativa","[4, 4, 3, 3, 4]",5,3.6,4,0.49,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,5,"Crescimento, consquita e pertencimento","[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 3, 4, 4]",5,3.8,4,0.4,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,8,Ostentação e consumismo,"[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica4_trecho1,Será que alguém explica a nossa relação?,9,"Despedidas, morte e fragilidade","[4, 4, 3, 4, 4]",5,3.8,4,0.4,1,alta
+musica5_trecho1,Agora pronto,1,Amor e relações amorosas,"[2, 2, 2, 3, 3]",5,2.4,2,0.49,0,alta
+musica5_trecho1,Agora pronto,2,"Inspiração, paz e harmonia","[2, 2, 2, 2, 2]",5,2.0,2,0.0,0,alta
+musica5_trecho1,Agora pronto,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica5_trecho1,Agora pronto,4,"Conhecimento, esperança e expectativa","[4, 3, 4, 3, 4]",5,3.6,4,0.49,1,alta
+musica5_trecho1,Agora pronto,5,"Crescimento, consquita e pertencimento","[4, 3, 3, 3, 4]",5,3.4,3,0.49,0,alta
+musica5_trecho1,Agora pronto,6,"Perdas, arrependimento e vulnerabilidade","[3, 2, 2, 4, 3]",5,2.8,3,0.75,0,media
+musica5_trecho1,Agora pronto,7,"Infidelidade, tristeza e sofrimento","[3, 3, 2, 2, 3]",5,2.6,3,0.49,0,alta
+musica5_trecho1,Agora pronto,8,Ostentação e consumismo,"[3, 4, 4, 3, 3]",5,3.4,3,0.49,0,alta
+musica5_trecho1,Agora pronto,9,"Despedidas, morte e fragilidade","[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",1,Amor e relações amorosas,"[3, 3, 2, 2, 4]",5,2.8,3,0.75,0,media
+musica6_trecho1,"Troquei de lençol, troquei de colchão",2,"Inspiração, paz e harmonia","[2, 2, 2, 2, 2]",5,2.0,2,0.0,0,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",4,"Conhecimento, esperança e expectativa","[2, 2, 3, 2, 2]",5,2.2,2,0.4,0,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",5,"Crescimento, consquita e pertencimento","[3, 3, 4, 3, 4]",5,3.4,3,0.49,0,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",6,"Perdas, arrependimento e vulnerabilidade","[3, 4, 4, 3, 2]",5,3.2,3,0.75,0,media
+musica6_trecho1,"Troquei de lençol, troquei de colchão",7,"Infidelidade, tristeza e sofrimento","[3, 3, 2, 3, 3]",5,2.8,3,0.4,0,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",8,Ostentação e consumismo,"[4, 3, 4, 4, 4]",5,3.8,4,0.4,1,alta
+musica6_trecho1,"Troquei de lençol, troquei de colchão",9,"Despedidas, morte e fragilidade","[3, 4, 3, 4, 3]",5,3.4,3,0.49,0,alta
+musica7_trecho1,Se quer saber de mim,1,Amor e relações amorosas,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica7_trecho1,Se quer saber de mim,2,"Inspiração, paz e harmonia","[2, 3, 2, 3, 3]",5,2.6,3,0.49,0,alta
+musica7_trecho1,Se quer saber de mim,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica7_trecho1,Se quer saber de mim,4,"Conhecimento, esperança e expectativa","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica7_trecho1,Se quer saber de mim,5,"Crescimento, consquita e pertencimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica7_trecho1,Se quer saber de mim,6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica7_trecho1,Se quer saber de mim,7,"Infidelidade, tristeza e sofrimento","[4, 3, 4, 4, 4]",5,3.8,4,0.4,1,alta
+musica7_trecho1,Se quer saber de mim,8,Ostentação e consumismo,"[4, 4, 4, 4, 3]",5,3.8,4,0.4,1,alta
+musica7_trecho1,Se quer saber de mim,9,"Despedidas, morte e fragilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,1,Amor e relações amorosas,"[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,2,"Inspiração, paz e harmonia","[2, 3, 2, 2, 3]",5,2.4,2,0.49,0,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,4,"Conhecimento, esperança e expectativa","[3, 2, 3, 2, 2]",5,2.4,2,0.49,0,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,5,"Crescimento, consquita e pertencimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,8,Ostentação e consumismo,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica8_trecho1,Joga uma taça no chão e pede desculpa,9,"Despedidas, morte e fragilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,1,Amor e relações amorosas,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,2,"Inspiração, paz e harmonia","[3, 2, 3, 4, 2]",5,2.8,3,0.75,0,media
+musica9_trecho1,(Cê foi embora pra ser o quê?,3,"Intimidade, desejo e sedução","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,4,"Conhecimento, esperança e expectativa","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,5,"Crescimento, consquita e pertencimento","[4, 4, 4, 4, 3]",5,3.8,4,0.4,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,6,"Perdas, arrependimento e vulnerabilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,7,"Infidelidade, tristeza e sofrimento","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,8,Ostentação e consumismo,"[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica9_trecho1,(Cê foi embora pra ser o quê?,9,"Despedidas, morte e fragilidade","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica10_trecho1,"Respira, não pira",1,Amor e relações amorosas,"[3, 2, 3, 3, 3]",5,2.8,3,0.4,0,alta
+musica10_trecho1,"Respira, não pira",2,"Inspiração, paz e harmonia","[4, 4, 4, 4, 4]",5,4.0,4,0.0,1,alta
+musica10_trecho1,"Respira, não pira",3,"Intimidade, desejo e sedução","[4, 4, 4, 3, 4]",5,3.8,4,0.4,1,alta
+musica10_trecho1,"Respira, não pira",4,"Conhecimento, esperança e expectativa","[3, 4, 4, 4, 3]",5,3.6,4,0.49,1,alta
+musica10_trecho1,"Respira, não pira",5,"Crescimento, consquita e pertencimento","[4, 4, 3, 3, 3]",5,3.4,3,0.49,0,alta
+musica10_trecho1,"Respira, não pira",6,"Perdas, arrependimento e vulnerabilidade","[3, 4, 3, 3, 3]",5,3.2,3,0.4,0,alta
+musica10_trecho1,"Respira, não pira",7,"Infidelidade, tristeza e sofrimento","[3, 3, 2, 2, 3]",5,2.6,3,0.49,0,alta
+musica10_trecho1,"Respira, não pira",8,Ostentação e consumismo,"[3, 3, 3, 2, 2]",5,2.6,3,0.49,0,alta
+musica10_trecho1,"Respira, não pira",9,"Despedidas, morte e fragilidade","[4, 4, 3, 4, 3]",5,3.6,4,0.49,1,alta
